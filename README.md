@@ -1,5 +1,10 @@
 # Inference for Coherent Systems with Weibull Distributed Component Lifetimes
-
+## Authors
+Pallavi N. Pawar
+(Department of Statistics, S.P. College, Pune)
+## Co-author
+Dr. Madhuri Kulkarni
+(Department of Statistics, Savitribai Phule Pune University)
 ## Description
 This repository contains the data and R code for the research work on statistical inference for coherent systems when component lifetimes follow a Weibull distribution. The study applies maximum likelihood estimation (MLE) to both real data and simulated data to analyze system reliability.
 
