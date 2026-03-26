@@ -6,28 +6,27 @@ Pallavi N. Pawar
 Dr. Madhuri Kulkarni
 (Department of Statistics, Savitribai Phule Pune University)
 ## Description
-This repository contains the data and R code for the research work on statistical inference for coherent systems when component lifetimes follow a Weibull distribution. The study applies maximum likelihood estimation (MLE) to both real data and simulated data to analyze system reliability.
-
+This repository contains the dataset and R code used in the research on inference for coherent systems with Weibull-distributed component lifetimes. The study applies conditional maximum likelihood estimation (MLE) methods. 
 ## Data Description
-The real dataset consists of failure times of air conditioning systems installed in aircraft. This dataset is used to illustrate the proposed methodology and assess its practical applicability.
+The dataset consists of failure times of air conditioning systems installed in aircraft. It is used to illustrate the proposed methodology and to assess its practical applicability.
+The dataset is taken from:
+Proschan, F. (1963). *Theoretical explanation of observed decreasing failure rate*. Technometrics, 5(3), 375–383.
 
 ## Methodology
+- We model the failure times of the air conditioning systems as a 2-out-of-4:F system,
 - Weibull distribution is used to model component lifetimes  
 - Conditional Maximum Likelihood Estimation (MLE) is employed for parameter estimation  
 - Inference is carried out for coherent systems
-- A simulation study is conducted to validate the performance of the estimators  
 
 ## Repository Structure
 - `data/` : Aircraft failure time dataset  
 - `code/` :  
-  - `aircraft_data_analysis.R` : R code for real data analysis  
-  - `simulation_study.R` : R code for simulation study
-  -All results reported in the paper can be reproduced using the provided R scripts.
+- `aircraft_data_analysis.R` : R code for modelling the failure times of the Air conditioning systems
+- All results reported in the paper can be reproduced using the provided R scripts.
 
 ## How to Reproduce the Results
 1. Open R or RStudio  
 2. Run `aircraft_data_analysis.R` for real data results  
-3. Run `simulation_study.R` for simulation results  
 4. Ensure the dataset in the `data/` folder is properly loaded  
 
 ## Requirements
