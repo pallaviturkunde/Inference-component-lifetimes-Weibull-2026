@@ -13,21 +13,24 @@ The dataset is taken from:
 Proschan, F. (1963). *Theoretical explanation of observed decreasing failure rate*. Technometrics, 5(3), 375–383.
 
 ## Methodology
-- We model the failure times of the air conditioning systems as a 2-out-of-4:F system,
-- Weibull distribution is used to model component lifetimes  
-- Conditional Maximum Likelihood Estimation (MLE) is employed for parameter estimation  
-- Inference is carried out for coherent systems
+- The failure times of the air conditioning systems are modeled using a 2-out-of-4:F system.
+- The Weibull distribution is used to model component lifetimes.
+- Conditional Maximum Likelihood Estimation (MLE) is employed for parameter estimation.
+- Statistical inference is carried out for coherent systems.
+- A simulation study is conducted to evaluate the performance of the proposed estimators.
 
 ## Repository Structure
 - `data/` : Aircraft failure time dataset  
 - `code/` :  
 - `aircraft_data_analysis.R` : R code for modelling the failure times of the Air conditioning systems
+- `simulation_study.R` : R code for comparison with existing estimators through simulation study
 - All results reported in the paper can be reproduced using the provided R scripts.
 
 ## How to Reproduce the Results
 1. Open R or RStudio  
 2. Run `aircraft_data_analysis.R` for real data results  
-4. Ensure the dataset in the `data/` folder is properly loaded  
+4. Ensure the dataset in the `data/` folder is properly loaded
+5. Run `simulation_study.R`for simulation results
 
 ## Requirements
 - R (version 4.0 or above recommended)  
