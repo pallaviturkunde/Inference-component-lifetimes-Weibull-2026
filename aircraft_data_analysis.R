@@ -4,6 +4,7 @@
 #This data set is first discussed in Proschan 1963,Technometrics then in 
 # Pal, Jin and Lim (2005, p. 175) and finally in Bhaumik et al Technometrics 2009
 # Load data from repository (relative path)
+
 data <- read.csv("../data/aircraft_data.csv") # import data 
 
 # Extract Time Between Failures 
